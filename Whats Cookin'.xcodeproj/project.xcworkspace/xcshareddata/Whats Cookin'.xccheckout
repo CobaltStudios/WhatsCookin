@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5204BEE1-681A-4F37-A6B7-376057645DB8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Whats Cookin'</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B7B6A1C94492424D52A586D83E6D342DF303075D</key>
+		<string>https://github.com/CobaltStudios/WhatsCookin-.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Whats Cookin'.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B7B6A1C94492424D52A586D83E6D342DF303075D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/CobaltStudios/WhatsCookin-.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B7B6A1C94492424D52A586D83E6D342DF303075D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B7B6A1C94492424D52A586D83E6D342DF303075D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Whats%20Cookin'</string>
+		</dict>
+	</array>
+</dict>
+</plist>
