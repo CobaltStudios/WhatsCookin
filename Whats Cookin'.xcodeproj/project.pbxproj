@@ -433,6 +433,7 @@
 				B9D2F4681BCDED2700EB47F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9D2F4691BCDED2700EB47F3 /* Build configuration list for PBXNativeTarget "Whats Cookin'Tests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +442,7 @@
 				B9D2F46B1BCDED2700EB47F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
