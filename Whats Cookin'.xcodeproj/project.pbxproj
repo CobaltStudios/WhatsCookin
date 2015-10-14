@@ -29,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B92AC8E91BCECE4100F77057 /* Whats Cookin'.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Whats Cookin'.entitlements"; sourceTree = "<group>"; };
 		B971B9B61BCE917200CC15C6 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		B971B9B71BCE917200CC15C6 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		B971B9B91BCE934700CC15C6 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
@@ -87,6 +88,7 @@
 		B9D2F43F1BCDED2700EB47F3 /* Whats Cookin' */ = {
 			isa = PBXGroup;
 			children = (
+				B92AC8E91BCECE4100F77057 /* Whats Cookin'.entitlements */,
 				B9D2F4441BCDED2700EB47F3 /* AppDelegate.h */,
 				B9D2F4451BCDED2700EB47F3 /* AppDelegate.m */,
 				B9D2F4501BCDED2700EB47F3 /* Main.storyboard */,
@@ -179,6 +181,14 @@
 					B9D2F43C1BCDED2600EB47F3 = {
 						CreatedOnToolsVersion = 6.4;
 						DevelopmentTeam = WCV3J76GTK;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					B9D2F45B1BCDED2700EB47F3 = {
 						CreatedOnToolsVersion = 6.4;
@@ -362,10 +372,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Whats Cookin'/Whats Cookin'.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Whats Cookin'/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -373,10 +386,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Whats Cookin'/Whats Cookin'.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Whats Cookin'/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
