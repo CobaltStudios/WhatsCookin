@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UIViewController
+@interface RootViewController : UIViewController<UIPageViewControllerDataSource>
+
+@property (nonatomic,strong) UIPageViewController *PageViewController;
+@property (nonatomic,strong) NSArray *arrPageTitles;
+@property (nonatomic,strong) NSArray *arrPageImages;
+
+- (PageContentViewController)viewControllerAtIndex:(NSUInteger)index;
+
+- (IBAction)btnStartAgain:(id)sender;
 
 @end
